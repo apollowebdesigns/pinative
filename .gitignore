@@ -22,3 +22,12 @@
 hs_err_pid*
 
 .idea/*
+.target/
+
+target/gs-rest-service-0.1.0.jar.original
+
+target/maven-archiver/pom.properties
+
+target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+
+target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
