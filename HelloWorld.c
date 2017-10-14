@@ -1,9 +1,9 @@
 #include <jni.h>
 #include <stdio.h>
-#include "HelloWorld.h"
+#include "hello_HelloWorld.h"
 
-JNIEXPORT void JNICALL
-Java_HelloWorld_print(JNIEnv *env, jobject obj)
+JNIEXPORT void JNICALL Java_hello_HelloWorld_print
+  (JNIEnv *, jobject)
 {
      printf("Hello World!\n");
      return;
