@@ -120,23 +120,23 @@
                     <compilerProvider>generic-classic</compilerProvider>
                     <compilerExecutable>gcc</compilerExecutable>
 
-                    <compilerStartOptions>
-                        <compilerStartOption>-m64</compilerStartOption>
-                        <compilerStartOption>-fpic</compilerStartOption>
-                        <compilerStartOption>-Wall</compilerStartOption>
-                        <compilerStartOption>-Wextra</compilerStartOption>
-                        <compilerStartOption>-ansi</compilerStartOption>
-                        <compilerStartOption>-g</compilerStartOption>
-                        <compilerStartOption>-O3</compilerStartOption>
-                    </compilerStartOptions>
+                    <!--<compilerStartOptions>-->
+                        <!--<compilerStartOption>-m64</compilerStartOption>-->
+                        <!--<compilerStartOption>-fpic</compilerStartOption>-->
+                        <!--<compilerStartOption>-Wall</compilerStartOption>-->
+                        <!--<compilerStartOption>-Wextra</compilerStartOption>-->
+                        <!--<compilerStartOption>-ansi</compilerStartOption>-->
+                        <!--<compilerStartOption>-g</compilerStartOption>-->
+                        <!--<compilerStartOption>-O3</compilerStartOption>-->
+                    <!--</compilerStartOptions>-->
 
                     <linkerOutputDirectory>target</linkerOutputDirectory>
                     <linkerExecutable>gcc</linkerExecutable>
 
-                    <linkerStartOptions>
-                        <linkerStartOption>-m64</linkerStartOption>
-                        <linkerStartOption>-shared</linkerStartOption>
-                    </linkerStartOptions>
+                    <!--<linkerStartOptions>-->
+                        <!--<linkerStartOption>-m64</linkerStartOption>-->
+                        <!--<linkerStartOption>-shared</linkerStartOption>-->
+                    <!--</linkerStartOptions>-->
 
                     <linkerFinalName></linkerFinalName>
 
