@@ -110,12 +110,12 @@
                         <source>
                             <directory>src/main/native</directory>
                             <fileNames>
-                                <fileName>jni.c</fileName>
+                                <fileName>HelloWorld.c</fileName>
                             </fileNames>
                         </source>
-                        <source>
-                            <directory>src/main/native/include</directory>
-                        </source>
+                        <!--<source>-->
+                            <!--<directory>src/main/native/include</directory>-->
+                        <!--</source>-->
                     </sources>
                     <compilerProvider>generic-classic</compilerProvider>
                     <compilerExecutable>gcc</compilerExecutable>
