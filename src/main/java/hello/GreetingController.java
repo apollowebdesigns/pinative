@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.atomic.AtomicLong;
 
+import static hello.Greeting.hello;
+
 @RestController
 public class GreetingController {
 
@@ -14,7 +16,7 @@ public class GreetingController {
 
     @RequestMapping("/greeting")
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
-        Greeting.hello();
+        hello();
         return new Greeting(counter.incrementAndGet(),
                 String.format(template, name));
     }
